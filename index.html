@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/style.css" rel="stylesheet" />
+    <title>Coding Quiz</title>
+  </head>
+
+  <header>
+  
+  </header>
+  <body class="body">
+    <div class="container">
+      <div id="timer"> <span id="timer-text"></span></div>
+      <h2 class="hide" id="h2"></h2>
+      <div id="question-container" class="hide">
+        <div id="question-div"></div>
+        <div id="answer-btn" class="btn-grid">
+          <button id="btn-1" class="btn">Get</button>
+          <button id="btn-2" class="btn">Ready</button>
+          <button id="btn-3" class="btn">to</button>
+          <button id="btn-4" class="btn">Start</button>
+        </div>
+      </div>
+      <form action="" method="get" id="form" class="hide">
+        <div class="form">
+          <label for="initials">Enter your initials: </label>
+          <input type="text" name="name" id="name" required>
+        </div>
+        <div class="form">
+          <label for="score">Enter your score: </label>
+          <input type="text" name="score" id="score" required>
+        </div>
+        <div class="form">
+          <input type="submit" value="submit">
+        </div>
+      </form>
+      <div class="navigate">
+        <button id="start-btn">Start</button>
+        <button id="next-btn">Next</button>
+        <button class="hide" id="finish-btn">Finish</button>
+      </div>
+      
+    </div>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
